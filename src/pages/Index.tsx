@@ -156,7 +156,7 @@ const Index = () => {
         {/* Footer */}
         <div className="mt-12 text-center animate-fade-in" style={{ animationDelay: `${(links.length + 1) * 0.1}s` }}>
           <p className="text-sm text-card/80">
-            © 2024 AfyaAILab Gh. All rights reserved.
+            © 2025 AfyaAILab Gh. All rights reserved.
           </p>
         </div>
       </div>
