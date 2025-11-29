@@ -68,7 +68,7 @@ const Index = () => {
           <div className="mb-6 inline-flex items-center justify-center">
             <div className="rounded-full bg-card p-6 shadow-[var(--shadow-card)] hover-scale">
               <h1 className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                AfyaAILab Gh
+                AfyaAI Innovations
               </h1>
             </div>
           </div>
