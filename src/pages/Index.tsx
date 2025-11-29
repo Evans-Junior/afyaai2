@@ -40,7 +40,7 @@ const Index = () => {
       color: "hover:border-accent",
     },
     {
-      title: "Meet our Team",
+      title: "Meet the Team",
       description: "Get to know the people behind AfyaAILab",
       icon: Boxes,
       url: "https://drive.google.com/file/d/1t1-Wm1dUo1-40OT0rQIe215BPSib2gWf/view?usp=sharing",
