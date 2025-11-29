@@ -1,4 +1,4 @@
-import { Linkedin, Globe, Mail, Package, Users } from "lucide-react";
+import { Linkedin, Globe, Mail, Package, Users,Activity,Smartphone, Boxes } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
@@ -25,6 +25,27 @@ const Index = () => {
       url: "https://afya-ai-lab.vercel.app/",
       color: "hover:border-accent",
     },
+    {
+      title: "Download our Mobile App",
+      description: "Get the AfyaAILab App",
+      icon: Smartphone,
+      url: "https://drive.google.com/file/d/1QHfb5cRmNdC_w4I_3LWKgW6CqMepdCm1/view?usp=sharing",
+      color: "hover:border-accent",
+    },
+    {
+      title: "Doctor's Platform",
+      description: "Access our platform for healthcare professionals",
+      icon: Activity,
+      url: "https://doctorspage.vercel.app/",
+      color: "hover:border-accent",
+    },
+    {
+      title: "Meeting our Team",
+      description: "Get to know the people behind AfyaAILab",
+      icon: Boxes,
+      url: "https://drive.google.com/file/d/1t1-Wm1dUo1-40OT0rQIe215BPSib2gWf/view?usp=sharing",
+      color: "hover:border-accent",
+    }
     {
       title: "Join our Waiting list",
       description: "Be part of our community",
