@@ -45,7 +45,7 @@ const Index = () => {
       icon: Boxes,
       url: "https://drive.google.com/file/d/1t1-Wm1dUo1-40OT0rQIe215BPSib2gWf/view?usp=sharing",
       color: "hover:border-accent",
-    }
+    },
     {
       title: "Join our Waiting list",
       description: "Be part of our community",
