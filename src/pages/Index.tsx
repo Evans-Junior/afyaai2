@@ -12,7 +12,8 @@ const Index = () => {
       color: "hover:border-primary",
     },
     {
-      title: "Our Product : Breathwise Diagnostic Tool (Chronic Obstructive Pulmonary Disease Detector)",
+      title:
+        "Our Product : Breathwise Diagnostic Tool (Chronic Obstructive Pulmonary Disease Detector)",
       description: "Explore our AI-powered solutions",
       icon: Package,
       url: "https://youtu.be/zMEDt7AZ418?si=lQNGBI2H1_SS-E1-",
@@ -22,12 +23,12 @@ const Index = () => {
       title: "Main Website",
       description: "Learn more about our services",
       icon: Globe,
-      url: "https://afya-ai-lab.vercel.app/",
+      url: "https://www.afyaaitechnologies.com/",
       color: "hover:border-accent",
     },
     {
       title: "Download our Mobile App",
-      description: "Get the AfyaAILab App",
+      description: "Get the Afya-ai Technologies App",
       icon: Smartphone,
       url: "https://drive.google.com/file/d/1QHfb5cRmNdC_w4I_3LWKgW6CqMepdCm1/view?usp=sharing",
       color: "hover:border-accent",
@@ -41,7 +42,7 @@ const Index = () => {
     },
     {
       title: "Meet the Team",
-      description: "Get to know the people behind AfyaAILab",
+      description: "Get to know the people behind Afya-ai Technologies",
       icon: Boxes,
       url: "https://drive.google.com/file/d/1t1-Wm1dUo1-40OT0rQIe215BPSib2gWf/view?usp=sharing",
       color: "hover:border-accent",
@@ -56,7 +57,7 @@ const Index = () => {
   ];
 
   const contactInfo = {
-    email: "afyaailab@gmail.com",
+    email: "info@afyaaitechnologies.com",
     phone: "+233(0) 540 722 819",
   };
 
@@ -68,18 +69,21 @@ const Index = () => {
           <div className="mb-6 inline-flex items-center justify-center">
             <div className="rounded-full bg-card p-6 shadow-[var(--shadow-card)] hover-scale">
               <h1 className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                AfyaAI Innovations
+                Afya-ai Technologies
               </h1>
             </div>
           </div>
-          
+
           {/* About Us Section */}
           <Card className="mb-8 bg-card/95 backdrop-blur-sm border-border/50 p-6 shadow-[var(--shadow-card)] animate-scale-in hover-scale">
-            <h2 className="mb-3 text-xl font-semibold text-foreground">About Us</h2>
+            <h2 className="mb-3 text-xl font-semibold text-foreground">
+              About Us
+            </h2>
             <p className="text-muted-foreground leading-relaxed">
-              AfyaAILab is pioneering the future of healthcare through artificial intelligence. 
-              We develop innovative AI-powered solutions that transform how healthcare 
-              providers deliver care and improve patient outcomes.
+              AfyaAILab is pioneering the future of healthcare through
+              artificial intelligence. We develop innovative AI-powered
+              solutions that transform how healthcare providers deliver care and
+              improve patient outcomes.
             </p>
           </Card>
         </div>
@@ -95,13 +99,15 @@ const Index = () => {
               className="block animate-fade-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <Card className={`
+              <Card
+                className={`
                 group relative overflow-hidden 
                 bg-card/95 backdrop-blur-sm border-2 border-border/50 
                 transition-all duration-300 ease-out
                 hover:shadow-[var(--shadow-hover)] hover:scale-[1.02]
                 ${link.color}
-              `}>
+              `}
+              >
                 <div className="flex items-center gap-4 p-6">
                   <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
                     <link.icon className="h-6 w-6" />
@@ -135,7 +141,7 @@ const Index = () => {
           ))}
 
           {/* Contact Us Section */}
-          <div 
+          <div
             className="animate-fade-in"
             style={{ animationDelay: `${links.length * 0.1}s` }}
           >
@@ -151,7 +157,7 @@ const Index = () => {
                   <div className="space-y-1">
                     <p className="text-sm text-muted-foreground">
                       <span className="font-medium">Email:</span>{" "}
-                      <a 
+                      <a
                         href={`mailto:${contactInfo.email}`}
                         className="text-primary hover:underline transition-all hover-scale inline-block"
                       >
@@ -160,7 +166,7 @@ const Index = () => {
                     </p>
                     <p className="text-sm text-muted-foreground">
                       <span className="font-medium">Phone:</span>{" "}
-                      <a 
+                      <a
                         href={`tel:${contactInfo.phone}`}
                         className="text-primary hover:underline transition-all hover-scale inline-block"
                       >
@@ -175,9 +181,12 @@ const Index = () => {
         </div>
 
         {/* Footer */}
-        <div className="mt-12 text-center animate-fade-in" style={{ animationDelay: `${(links.length + 1) * 0.1}s` }}>
+        <div
+          className="mt-12 text-center animate-fade-in"
+          style={{ animationDelay: `${(links.length + 1) * 0.1}s` }}
+        >
           <p className="text-sm text-card/80">
-            © 2025 AfyaAI Innovations. All rights reserved.
+            © 2025 Afya-ai Technologies. All rights reserved.
           </p>
         </div>
       </div>
