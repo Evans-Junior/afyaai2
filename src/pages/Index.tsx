@@ -1,4 +1,13 @@
-import { Linkedin, Globe, Mail, Package, Users,Activity,Smartphone, Boxes } from "lucide-react";
+import {
+  Linkedin,
+  Globe,
+  Mail,
+  Package,
+  Users,
+  Activity,
+  Smartphone,
+  Boxes,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
@@ -67,10 +76,12 @@ const Index = () => {
         {/* Header Section */}
         <div className="mb-8 text-center animate-fade-in">
           <div className="mb-6 inline-flex items-center justify-center">
-            <div className="rounded-full bg-card p-6 shadow-[var(--shadow-card)] hover-scale">
-              <h1 className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Afya-ai Technologies
-              </h1>
+            <div className="rounded-full bg-card p-3 shadow-[var(--shadow-card)] hover-scale">
+              <img
+                src="./Logo.png"
+                alt="Afya-ai Technologies Logo"
+                className="w-[200px] h-[80px] object-contain"
+              />
             </div>
           </div>
 
