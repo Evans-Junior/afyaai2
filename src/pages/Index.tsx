@@ -53,7 +53,7 @@ const Index = () => {
       title: "Meet the Team",
       description: "Get to know the people behind Afya-ai Technologies",
       icon: Boxes,
-      url: "https://drive.google.com/file/d/1t1-Wm1dUo1-40OT0rQIe215BPSib2gWf/view?usp=sharing",
+      url: "https://drive.google.com/file/d/170J-1XpTYnbkElBbhetOT9DR-5bJGDiS/view?usp=sharing",
       color: "hover:border-accent",
     },
     {
